@@ -6,7 +6,6 @@ from .models import Flight, Passenger
 
 # Create your views here.
 def index(request):
-    a = 1
     context = {
         "flights": Flight.objects.all()
     }
